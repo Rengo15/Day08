@@ -5,6 +5,10 @@
 var myGlobalVariable = 10;
 function function1(){
     notGlobalVariable = 5;
+    console.log();
+}
+function function2(){
+    
 
     var result = "";
     if (typeof myGlobalVariable != "undefined"){
